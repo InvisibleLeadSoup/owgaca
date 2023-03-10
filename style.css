@@ -7,14 +7,26 @@ body {
     margin: auto;
   }  
   
-  a:link {
+  a:link, a:visited  {
     text-decoration: none;
     color: white;
   }
-  
-  a:visited {
-    text-decoration: none;
-    color: white;
+
+  #title {
+    letter-spacing: 3px;
+    text-align: center;
+    border: 3px inset white;
+    border-radius: 15px;
+    padding: 1%;
+  }
+
+  #oga:hover {
+    background-color: #070707;
+  }
+
+  #intro {
+    text-align: center;
+    padding-bottom: 30px;
   }
   
   h1 {
@@ -23,11 +35,6 @@ body {
     border: 2px inset white;
     border-radius: 15px;
     padding: 2%;
-  }
-  
-  h2 {
-    text-align: center;
-    padding-bottom: 30px;
   }
   
   h3, h4 {
@@ -52,40 +59,32 @@ body {
   
   .button {
     transition-duration: 0.1s;
+    border: 2px outset white;
+  }
+
+  .button:hover {
+    border: 2px inset;
+    border-radius: 3px;
   }
   
   .home:hover {
     background-color: blue;
-    border-radius: 3px;
   }
   
   .escape:hover {
     background-color: green;
-    border-radius: 3px;
   }
   
   .inlaws:hover {
     background-color: purple;
-    border-radius: 3px;
   }
   
   .paradigms:hover {
     background-color: #DFA71A;
-    border-radius: 3px;
   }
   
   .new42:hover {
     background-color: teal;
-    border-radius: 3px;
-  }
-  
-  .lit {
-    border-radius: 5px;
-  }
-  
-  #oga:hover {
-    background-color: #070707;
-    border: 2px outset white;
   }
   
   .homelit {
@@ -106,8 +105,4 @@ body {
   
   .new42lit {
     background-color: teal;
-  }
-  
-  .chapter {
-    margin-top: 4em;
   }
